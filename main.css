@@ -36,6 +36,7 @@ header:after {
 header .content {
   position: relative;
   z-index: 1;
+//  vertical-align: bottom;
 }
 header .content h1 {
   color: #FFF;
@@ -69,7 +70,7 @@ header .content h2 {
   color: #FFF;
   font-size: 28px;
   font-weight: 500;
-  margin: 30px 0px;
+  margin: 8px 0px;
 }
 @media screen and (min-width: 480px) {
   header .content h2 {
@@ -116,5 +117,53 @@ header .content .countdown {
     font-size: 88px;
   }
 }
+header .content button1 {
+  background-color: #FA1207;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+header .content button1:hover {
+  background-color: white; 
+  color: #FA1207;
+  font-weight: 600;
+  cursor: pointer;
+}
+header .content button2 {
+  background-color: #1BC705;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+header .content button2:hover {
+  background-color: white; 
+  color: #1BC705; 
+  font-weight: 600;
+  cursor: pointer;
+}
+header .content h3 {
+  color: #FFF;
+  font-size: 16px;
+  display: inline-block;
+}
+header .content h4 {
+  color: #FFF;
+  font-size: 16px;
+  display: inline-block;
+}
+header .content h5 {
+  color: #FFF;
+  font-size: 20px;
+  display: inline-block;
+}
+
 
 /*# sourceMappingURL=main.css.map */
